@@ -469,7 +469,7 @@ class DialogAppend ( wx.Dialog ):
 		
 		fgSizer2.Add( self.m_comboBox_nodeB, 0, wx.ALIGN_CENTER|wx.ALL|wx.EXPAND, 5 )
 		
-		self.m_staticText16 = wx.StaticText( self.m_panel_node, wx.ID_ANY, u"Lable:", wx.DefaultPosition, wx.DefaultSize, wx.ALIGN_RIGHT )
+		self.m_staticText16 = wx.StaticText( self.m_panel_node, wx.ID_ANY, u"Label:", wx.DefaultPosition, wx.DefaultSize, wx.ALIGN_RIGHT )
 		self.m_staticText16.Wrap( -1 )
 		fgSizer2.Add( self.m_staticText16, 0, wx.ALIGN_CENTER_VERTICAL|wx.ALIGN_RIGHT|wx.ALL, 5 )
 		
